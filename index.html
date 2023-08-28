@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>ҰБТ-ға дайындық курстары</title>
+        <meta name="keywords" content="ҰБТ-ға дайындық">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="google-site-verification" content="Z1Abv-lTNmoSo3TW12BILlc0huij0TCkDJkuRHGx8Gg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="facebook-domain-verification" content="2vh11472s2knfnj8quwfny4liqkybu" />
+        <script src="https://kit.fontawesome.com/0f7cda1831.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="/img/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="css/style.css?v=1.1431" />
+        <script src="/js/lazyload.js"></script>        
+    </head>
+    <body class="<?=$l?>">
+        <header class="header <?= ($this->request->params['action'] != 'home' ) ? 'header--white' : ''?>">
+            <div class="container">
+                <a class="logo" href="/">
+                    <img alt="Онлайн школа Staystudy" src="img/logo.svg">
+                </a>
+                <ul class="menu">
+                    <li><a href="/<?=$lang?>">Главная</a></li>
+                    <li><a href="/<?=$lang?>standart">Наши курсы</a></li>
+                    <li><a href="/<?=$lang?>teachers">Преподаватели</a></li>
+                    <li><a href="/<?=$lang?>news">Новости</a></li>                    
+                    <li><a href="/<?=$lang?>contacts">О компании</a></li>
+                </ul>                               
+                <div class="header__right">                               
+                    <div class="lang-item">
+                        <div class="lang-item__heading">
+                            Русский                               
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="lang-item__area">
+                            <ul class="lang-ul">
+                                <li><a href="/kz">Казахский</a></li>
+                                <li><a href="/">Русский</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <a class="btn" target="_blank" href="https://app.staystudy.kz/" class="h-btn">
+                        Личный кабинет <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                    <div class="mob-start">
+                        <span class="menu1"></span>
+                        <span class="menu2"></span>
+                        <span class="menu3"></span>
+                    </div>                            
+                </div>
+            </div>
+        </header>
+        
+        <div class="top-info">
+            <div class="section section--grey">
+                <div class="container">
+                    <div class="main-slider">
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item__text">
+                                    <div class="slider-item__heading">
+                                        <span class="circle"></span>
+                                        <h1>Подготовим к ЕНТ на <span>100+ баллов</span></h1>
+                                    </div>
+                                    <a class="btn btn--big" href="#">Хочу пробный урок</a>
+                                </div>
+                                <div class="slider-item__right">
+                                    <div class="slider-item__img">
+                                       <img src="img/saya.png">
+                                    </div>
+                                    <div class="slider-lines"></div>
+                                    <div class="slider-lines slider-lines--2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="section section--grey">
+            <div class="container">
+                <h6 class="section-heading">Годовой курс</h6>
+                <ul class="god-ul">
+                    <li>
+                        <div class="god-item">
+                            <div class="god-item__heading">
+                                <span>8 месяцев</span>
+                            </div>    
+                            <p>Полный курс за 8 месяцев поднимет твой балл от 0 до 100+</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="god-item">
+                            <div class="god-item__heading">
+                                <span>Поддержка</span>
+                            </div>  
+                            <p>Полный курс за 8 месяцев поднимет твой балл от 0 до 100+</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="god-item">
+                            <div class="god-item__heading">
+                                <span>Нескучно</span>
+                            </div>  
+                            <p>Полный курс за 8 месяцев поднимет твой балл от 0 до 100+</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="god-item">
+                            <div class="god-item__heading">
+                                <span>Вайб</span>
+                            </div>  
+                            <p>Полный курс за 8 месяцев поднимет твой балл от 0 до 100+</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h6 class="section-heading">Знакомство</h6>
+                <div class="teacher-part">
+                    <div class="teacher-part__left">
+
+                        <div class="teacher-info active">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Test
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                TEst 123
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                TEst465
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="teacher-info">
+                            <span class="teacher-info__heading">
+                                Сурукпаев Аслан
+                            </span>
+                            <ul class="teach-info-ul">
+                                <li>
+                                    <span>8 лет</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>90 +</span> опыт преподавания
+                                </li>
+                                <li>
+                                    <span>100 баллов</span> опыт преподавания
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="teacher-tabs-ul">
+                            <li>
+                                <a href="#">История Казахстана</a>
+                            </li>
+                            <li>
+                                <a href="#">Мат.Грамотность</a>
+                            </li>
+                            <li>
+                                <a href="#">Грам.чтения</a>
+                            </li>
+                            <li>
+                                <a href="#">Математика</a>
+                            </li>
+                            <li>
+                                <a href="#">Физика</a>
+                            </li>
+                            <li>
+                                <a href="#">Биология</a>
+                            </li>
+                            <li>
+                                <a href="#">Химия</a>
+                            </li>
+                            <li>
+                                <a href="#">География</a>
+                            </li>
+                            <li>
+                                <a href="#">Английский язык</a>
+                            </li>
+                            <li>
+                                <a href="#">Информатика</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="teacher-part__right">
+                        <div class="teacher-part__content active">
+                            <div class="teacherm-img">
+                                <img src="img/teachers-main/aslan.png">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/otzyv/aldiyar_otzyv.jpg">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/otzyv/Danil.JPG">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/otzyv/otzyv1.jpg">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/teachers-main/aslan.png">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/teachers-main/aslan.png">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/otzyv/aldiyar_otzyv.jpg">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/otzyv/Danil.JPG">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/otzyv/otzyv1.jpg">
+                            </div>
+                        </div>
+                        <div class="teacher-part__content">
+                            <div class="teacherm-img">
+                                <img src="img/teachers-main/aslan.png">
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section--tarif">
+            <div class="container">
+                <h6 class="section-heading">
+                    Выберите тариф
+                </h6>
+                <div class="price-area">
+                    <div class="price-area__item">
+                        <div class="price-card">
+                            <div class="price-card__heading">
+                                Про                    
+                            </div>
+                            <ul class="price-list">                                 
+                                <li>
+                                    <span></span>   
+                                    Онлайн уроки 2 раза в неделю                        
+                                </li>
+                                <li>
+                                    <span></span>   
+                                    Записи всех уроков                        
+                                </li>
+                                <li>
+                                    <span></span>       
+                                    Вся необходимая теория для ЕНТ                        
+                                </li>
+                                <li>
+                                    <span></span>       
+                                    Регулярное дз с проверкой                        
+                                </li>
+                                <li>
+                                    <span></span>       
+                                    Личный куратор                        
+                                </li>
+                                <li>
+                                    <span></span>
+                                    Пробные тесты ежемесячные                        
+                                </li>
+                                <li>
+                                    <span></span>
+                                    Система жизней                        
+                                </li>
+                            </ul>
+                            <ul class="price-ul">
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">1 предмет:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">10 000 тг/м</span>
+                                            <div class="price-row__old">
+                                                <span>15 000</span> тг/м 
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">2 предмета:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">18 000 тг/м</span>
+                                            <div class="price-row__old">
+                                                <span>27 000</span> тг/м 
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">3 предмета:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">25 000 тг/м</span>
+                                            <div class="price-row__old">
+                                                <span>38 000</span> тг/м 
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">4 предмета:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">33 000 тг/м</span>
+                                            <span class="price-row__old">
+                                                <span>48 000</span> тг/м 
+                                            </span>
+                                        </div>
+                                    </div>  
+                                </li>
+                            </ul>
+                            <div class="price-card__bot">
+                                <a class="btn" data-fancybox="" data-src="#arequest">Оставить заявку <i class="fa-solid fa-angle-right"></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="price-area__item">
+                         <div class="price-card">
+                            <div class="price-card__heading">
+                                Премиум                   
+                            </div>
+                            <ul class="price-list">                                 
+                                <li>
+                                    <span></span>   
+                                    Онлайн уроки 2 раза в неделю                        
+                                </li>
+                                <li>
+                                    <span></span>   
+                                    Записи всех уроков                        
+                                </li>
+                                <li>
+                                    <span></span>       
+                                    Вся необходимая теория для ЕНТ                        
+                                </li>
+                                <li>
+                                    <span></span>       
+                                    Регулярное дз с проверкой                        
+                                </li>
+                                <li>
+                                    <span></span>       
+                                    Личный куратор                        
+                                </li>
+                                <li>
+                                    <span></span>
+                                    Пробные тесты ежемесячные                        
+                                </li>
+                                <li>
+                                    <span></span>
+                                    Система жизней                        
+                                </li>
+                            </ul>
+                            <ul class="price-ul">
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">1 предмет:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">10 000 тг/м</span>
+                                            <div class="price-row__old">
+                                                <span>15 000</span> тг/м 
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">2 предмета:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">18 000 тг/м</span>
+                                            <div class="price-row__old">
+                                                <span>27 000</span> тг/м 
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">3 предмета:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">25 000 тг/м</span>
+                                            <div class="price-row__old">
+                                                <span>38 000</span> тг/м 
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="price-row">
+                                        <span class="price-row__title">4 предмета:</span> 
+                                        <div class="price-row__right">
+                                            <span class="price-row__new">33 000 тг/м</span>
+                                            <span class="price-row__old">
+                                                <span>48 000</span> тг/м 
+                                            </span>
+                                        </div>
+                                    </div>  
+                                </li>
+                            </ul>
+                            <div class="price-card__bot">
+                                <a class="btn" data-fancybox="" data-src="#arequest">Оставить заявку <i class="fa-solid fa-angle-right"></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div> 
+        <div class="section section--sale">
+            <div class="container">
+                <div class="sale-banner">
+                    <div class="sale-banner__left">
+                        <div class="sale-text">
+                            <span class="sale-text__heading">Скидка -30%</span>
+                            <p>
+                                Успей купить курс до 10 августа и Получи -30% скидку на весь учебный год!
+                            </p>
+                            <a class="sale-text__btn" href="#">Оставить заявку</a>
+                        </div>    
+                    </div>
+                    <div class="sale-banner__right">
+                        <div class="sale-img">
+                            <img src="img/china-sale.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h6 class="section-heading">
+                    Отзывы учеников
+                </h6>
+
+                <div class="reviews">
+                    <div class="reviews__list">
+                        <div class="reviews__item">
+                                <a class="reviews__item-imgIcon" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="55" viewBox="0 0 54 55" fill="none">
+                                        <path d="M27.0006 45.4104C16.8486 45.4104 8.64062 37.2024 8.64062 27.0504C8.64062 16.8984 16.8486 8.69043 27.0006 8.69043C37.1526 8.69043 45.3606 16.8984 45.3606 27.0504C45.3606 37.2024 37.1526 45.4104 27.0006 45.4104ZM27.0006 10.8504C18.0366 10.8504 10.8006 18.0864 10.8006 27.0504C10.8006 36.0144 18.0366 43.2504 27.0006 43.2504C35.9646 43.2504 43.2006 36.0144 43.2006 27.0504C43.2006 18.0864 35.9646 10.8504 27.0006 10.8504Z" fill="white"/>
+                                        <path d="M21.5996 36.4465V17.6545L37.7996 27.0505L21.5996 36.4465ZM23.7596 21.3265V32.6665L33.4796 26.9425L23.7596 21.3265Z" fill="white"/>
+                                    </svg>
+                                </a>
+                                <img class="reviews__item-img" src="./img/reviews/1.jpg" alt="отзыв фото">
+                            <div class="reviews__item-content">
+                                <h4>Зарина Сеитова</h4>
+                                <p>
+                                    Спасибо EasyENT, реально подтянула свой уровень.                 На уроках всегда интересно, особенно полюбился урок преподавателя по истории Чингза.
+                                    Сдала ЕНТ на 105 баллов.  
+                                    Интересные презентации и на уроке свободное общение, 
+                                </p>
+                                <a href="#">читать дальше 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <path d="M5.625 11.25L9.375 7.5L5.625 3.75" stroke="#9BA1B4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <a class="reviews__item-imgIcon" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="55" viewBox="0 0 54 55" fill="none">
+                                    <path d="M27.0006 45.4104C16.8486 45.4104 8.64062 37.2024 8.64062 27.0504C8.64062 16.8984 16.8486 8.69043 27.0006 8.69043C37.1526 8.69043 45.3606 16.8984 45.3606 27.0504C45.3606 37.2024 37.1526 45.4104 27.0006 45.4104ZM27.0006 10.8504C18.0366 10.8504 10.8006 18.0864 10.8006 27.0504C10.8006 36.0144 18.0366 43.2504 27.0006 43.2504C35.9646 43.2504 43.2006 36.0144 43.2006 27.0504C43.2006 18.0864 35.9646 10.8504 27.0006 10.8504Z" fill="white"/>
+                                    <path d="M21.5996 36.4465V17.6545L37.7996 27.0505L21.5996 36.4465ZM23.7596 21.3265V32.6665L33.4796 26.9425L23.7596 21.3265Z" fill="white"/>
+                                </svg>
+                            </a>
+                                <img class="reviews__item-img" src="./img/reviews/1.jpg" alt="отзыв фото">
+                            <div class="reviews__item-content">
+                                <h4>Зарина Сеитова</h4>
+                                <p>
+                                    Спасибо EasyENT, реально подтянула свой уровень.                 На уроках всегда интересно, особенно полюбился урок преподавателя по истории Чингза.
+                                    Сдала ЕНТ на 105 баллов.  
+                                    Интересные презентации и на уроке свободное общение, 
+                                </p>
+                                <a href="#">читать дальше 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <path d="M5.625 11.25L9.375 7.5L5.625 3.75" stroke="#9BA1B4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                                <a class="reviews__item-imgIcon" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="55" viewBox="0 0 54 55" fill="none">
+                                        <path d="M27.0006 45.4104C16.8486 45.4104 8.64062 37.2024 8.64062 27.0504C8.64062 16.8984 16.8486 8.69043 27.0006 8.69043C37.1526 8.69043 45.3606 16.8984 45.3606 27.0504C45.3606 37.2024 37.1526 45.4104 27.0006 45.4104ZM27.0006 10.8504C18.0366 10.8504 10.8006 18.0864 10.8006 27.0504C10.8006 36.0144 18.0366 43.2504 27.0006 43.2504C35.9646 43.2504 43.2006 36.0144 43.2006 27.0504C43.2006 18.0864 35.9646 10.8504 27.0006 10.8504Z" fill="white"/>
+                                        <path d="M21.5996 36.4465V17.6545L37.7996 27.0505L21.5996 36.4465ZM23.7596 21.3265V32.6665L33.4796 26.9425L23.7596 21.3265Z" fill="white"/>
+                                    </svg>
+                                </a>
+                                <img class="reviews__item-img" src="./img/reviews/1.jpg" alt="отзыв фото">
+                            <div class="reviews__item-content">
+                                <h4>Зарина Сеитова</h4>
+                                <p>
+                                    Спасибо EasyENT, реально подтянула свой уровень.                 На уроках всегда интересно, особенно полюбился урок преподавателя по истории Чингза.
+                                    Сдала ЕНТ на 105 баллов.  
+                                    Интересные презентации и на уроке свободное общение, 
+                                </p>
+                                <a href="#">читать дальше 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <path d="M5.625 11.25L9.375 7.5L5.625 3.75" stroke="#9BA1B4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="reviews__right">
+                        <div class="reviews__right-block">
+                            <img class="reviews__right-img" src="./img/kuralay.jpg" alt="фото">
+                            <div class="reviews__right-info">
+                                <h5 class="reviews__info-name">Куратор Куралай</h5>
+                                <p class="reviews__info-text">“Каждому ученику с заботой”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__item footer__item--first">
+                        <div class="footer-first">
+                            <a href="/"><img class="footer-first__img" src="/img/logo_footer.svg"></a>
+                            <p class="footer-first__des">Подготовим к ЕНТ на 100+ баллов, и поможем поступить на грант')?></p>
+                            <p>© easyENT, 2023</p>
+                        </div>
+                    </div>
+                    <div class="footer__item footer__item--second">
+                        <span class="footer__heading">О EasyEnt</span>
+                        <a href="/<?=$lang?>standart">Наши курсы</a>
+                        <a href="/<?=$lang?>teachers">Преподаватели</a>
+                        <a href="/<?=$lang?>news">Новости</a>                    
+                        <a href="/<?=$lang?>contacts">О компании</a>
+                        <a href="/img/politics.docx">Политика конфиденцальности</a>
+                        <a href="/img/vozvrat.docx">Политика возврата средств</a>
+                    </div>
+                    <div class="footer__item">
+                        <span class="footer__heading">Контактные данные</span>
+                        <ul class="footer-cont">
+                            <li><span>Телефон для связи</span>+7 705 408 1438</li>
+                            <li><span>Адрес</span>г. Астана, ул. Улы дала 11.3</li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <span class="footer__heading">Мы в соц.сетях</span>
+                        <div class="footer-links">
+                            <a target="_blank" target="_blank" href="https://www.instagram.com/easyent_/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a target="_blank" target="_blank" href="https://www.youtube.com/@staystudy1833">  
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                            <a target="_blank" target="_blank" href="https://www.youtube.com/channel/UC0aZ6CdRF-ozoih-BG5jU0g"> 
+                                <i class="fa-brands fa-youtube"></i>
+                            </a> 
+                            <a target="_blank" target="_blank" href="https://vk.com/public207273663">   
+                                <i class="fa-brands fa-vk"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </footer>
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/slick.min.js"></script>  
+    <script src="js/script.js?v=1.1322"></script>
+    <script src="js/jquery.fancybox.min.js"></script>  
+    </body>
+</html>
